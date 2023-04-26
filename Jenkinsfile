@@ -1,5 +1,7 @@
 pipeline {
-  agent node ("Principal")
+  agent{
+    node ("Principal")
+  }
 
   stages {
     stage('Instalando Dependencias') {
